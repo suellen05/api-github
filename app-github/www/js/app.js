@@ -1,7 +1,9 @@
+
 function BuscarGithub(){
+
     $.ajax({
         type: "GET",
-        url: "https://api.github.com/users/gutoffline",
+        url: "https://api.github.com/users/suellen05",
          success: (function(user){
              console.log(user)
              let nome = user.name
